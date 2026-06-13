@@ -167,5 +167,8 @@ public class Main{
         player1.display();
         player2.display();
 
+        player1.attack(player2);
+        player2.attack(player1);
+
     }
 }
